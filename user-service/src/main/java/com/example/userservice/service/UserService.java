@@ -1,11 +1,11 @@
 package com.example.userservice.service;
 
-import com.example.userservice.model.User;
-import com.example.userservice.repository.UserRepository;
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-import java.util.Optional;
+import com.example.userservice.model.User;
+import com.example.userservice.repository.UserRepository;
 
 @Service
 public class UserService {
